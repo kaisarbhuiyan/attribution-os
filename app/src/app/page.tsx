@@ -4,7 +4,6 @@ import React, { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import HeadlineCard from "@/components/HeadlineCard";
 import ModelComparisonChart from "@/components/ModelComparisonChart";
-import HeatmapChart from "@/components/HeatmapChart";
 import ChannelLegend from "@/components/ChannelLegend";
 import AnimatedCounter from "@/components/AnimatedCounter";
 import AiSuggestions from "@/components/AiSuggestions";
@@ -13,7 +12,6 @@ import { CreditRecord, MetricKey, MODEL_LABELS, MODEL_TYPES, METRIC_LABELS } fro
 export default function Home() {
   const [data, setData] = useState<CreditRecord[]>([]);
   const [metric, setMetric] = useState<MetricKey>("attributed_conversions");
-  const [viewType, setViewType] = useState<"heatmap" | "bar">("heatmap");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -192,27 +190,11 @@ export default function Home() {
           <div>
             <h2 className="chart-title">Channel Credit by Model</h2>
             <p className="chart-subtitle">
-              Visualizing credit distribution. The Heatmap shows density shares, and the Bar Chart shows comparative volumes.
+              Visualizing comparative credit volume levels across all 7 marketing models.
             </p>
           </div>
           
           <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
-            {/* View type toggle */}
-            <div className="toggle-group">
-              <button
-                className={`toggle-btn ${viewType === "heatmap" ? "toggle-btn--active" : ""}`}
-                onClick={() => setViewType("heatmap")}
-              >
-                Heatmap
-              </button>
-              <button
-                className={`toggle-btn ${viewType === "bar" ? "toggle-btn--active" : ""}`}
-                onClick={() => setViewType("bar")}
-              >
-                Bar Chart
-              </button>
-            </div>
-
             {/* Metric toggle */}
             <div className="toggle-group">
               {(Object.entries(METRIC_LABELS) as [MetricKey, string][]).map(([key, label]) => (
@@ -228,14 +210,8 @@ export default function Home() {
           </div>
         </div>
 
-        {viewType === "heatmap" ? (
-          <HeatmapChart data={data} metric={metric} />
-        ) : (
-          <>
-            <ChannelLegend />
-            <ModelComparisonChart data={data} metric={metric} />
-          </>
-        )}
+        <ChannelLegend />
+        <ModelComparisonChart data={data} metric={metric} />
       </section>
 
       {/* AI Investment Copilot Panel */}
