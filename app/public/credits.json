@@ -1,0 +1,450 @@
+[
+  {
+    "model": "last_touch",
+    "channel": "Display",
+    "attributed_conversions": 25.0,
+    "attributed_revenue": 4406.98,
+    "share": 0.0338,
+    "total_spend": 105768.21
+  },
+  {
+    "model": "last_touch",
+    "channel": "Referral",
+    "attributed_conversions": 51.0,
+    "attributed_revenue": 7332.68,
+    "share": 0.069,
+    "total_spend": 8921.43
+  },
+  {
+    "model": "last_touch",
+    "channel": "Direct",
+    "attributed_conversions": 112.0,
+    "attributed_revenue": 17980.18,
+    "share": 0.1516,
+    "total_spend": 0.0
+  },
+  {
+    "model": "last_touch",
+    "channel": "Affiliate",
+    "attributed_conversions": 76.0,
+    "attributed_revenue": 11471.99,
+    "share": 0.1028,
+    "total_spend": 52523.57
+  },
+  {
+    "model": "last_touch",
+    "channel": "Email",
+    "attributed_conversions": 167.0,
+    "attributed_revenue": 29064.43,
+    "share": 0.226,
+    "total_spend": 18499.15
+  },
+  {
+    "model": "last_touch",
+    "channel": "Paid Search",
+    "attributed_conversions": 204.0,
+    "attributed_revenue": 40119.58,
+    "share": 0.276,
+    "total_spend": 240005.38999999998
+  },
+  {
+    "model": "last_touch",
+    "channel": "Organic Search",
+    "attributed_conversions": 81.0,
+    "attributed_revenue": 12656.37,
+    "share": 0.1096,
+    "total_spend": 0.0
+  },
+  {
+    "model": "last_touch",
+    "channel": "Paid Social",
+    "attributed_conversions": 23.0,
+    "attributed_revenue": 3649.29,
+    "share": 0.0311,
+    "total_spend": 162651.62
+  },
+  {
+    "model": "first_touch",
+    "channel": "Display",
+    "attributed_conversions": 123.0,
+    "attributed_revenue": 23243.84,
+    "share": 0.1664,
+    "total_spend": 105768.21
+  },
+  {
+    "model": "first_touch",
+    "channel": "Referral",
+    "attributed_conversions": 96.0,
+    "attributed_revenue": 17506.47,
+    "share": 0.1299,
+    "total_spend": 8921.43
+  },
+  {
+    "model": "first_touch",
+    "channel": "Direct",
+    "attributed_conversions": 76.0,
+    "attributed_revenue": 11953.91,
+    "share": 0.1028,
+    "total_spend": 0.0
+  },
+  {
+    "model": "first_touch",
+    "channel": "Affiliate",
+    "attributed_conversions": 60.0,
+    "attributed_revenue": 8086.64,
+    "share": 0.0812,
+    "total_spend": 52523.57
+  },
+  {
+    "model": "first_touch",
+    "channel": "Email",
+    "attributed_conversions": 76.0,
+    "attributed_revenue": 13761.63,
+    "share": 0.1028,
+    "total_spend": 18499.15
+  },
+  {
+    "model": "first_touch",
+    "channel": "Paid Search",
+    "attributed_conversions": 78.0,
+    "attributed_revenue": 16618.96,
+    "share": 0.1055,
+    "total_spend": 240005.38999999998
+  },
+  {
+    "model": "first_touch",
+    "channel": "Organic Search",
+    "attributed_conversions": 85.0,
+    "attributed_revenue": 13306.41,
+    "share": 0.115,
+    "total_spend": 0.0
+  },
+  {
+    "model": "first_touch",
+    "channel": "Paid Social",
+    "attributed_conversions": 145.0,
+    "attributed_revenue": 22203.64,
+    "share": 0.1962,
+    "total_spend": 162651.62
+  },
+  {
+    "model": "linear",
+    "channel": "Display",
+    "attributed_conversions": 76.57,
+    "attributed_revenue": 13451.42,
+    "share": 0.1036,
+    "total_spend": 105768.21
+  },
+  {
+    "model": "linear",
+    "channel": "Referral",
+    "attributed_conversions": 75.82,
+    "attributed_revenue": 13192.79,
+    "share": 0.1026,
+    "total_spend": 8921.43
+  },
+  {
+    "model": "linear",
+    "channel": "Direct",
+    "attributed_conversions": 91.22,
+    "attributed_revenue": 14327.87,
+    "share": 0.1234,
+    "total_spend": 0.0
+  },
+  {
+    "model": "linear",
+    "channel": "Affiliate",
+    "attributed_conversions": 78.56,
+    "attributed_revenue": 11986.79,
+    "share": 0.1063,
+    "total_spend": 52523.57
+  },
+  {
+    "model": "linear",
+    "channel": "Email",
+    "attributed_conversions": 113.22,
+    "attributed_revenue": 19756.17,
+    "share": 0.1532,
+    "total_spend": 18499.15
+  },
+  {
+    "model": "linear",
+    "channel": "Paid Search",
+    "attributed_conversions": 130.62,
+    "attributed_revenue": 26911.77,
+    "share": 0.1767,
+    "total_spend": 240005.38999999998
+  },
+  {
+    "model": "linear",
+    "channel": "Organic Search",
+    "attributed_conversions": 90.33,
+    "attributed_revenue": 13892.27,
+    "share": 0.1222,
+    "total_spend": 0.0
+  },
+  {
+    "model": "linear",
+    "channel": "Paid Social",
+    "attributed_conversions": 82.66,
+    "attributed_revenue": 13162.42,
+    "share": 0.1119,
+    "total_spend": 162651.62
+  },
+  {
+    "model": "time_decay",
+    "channel": "Display",
+    "attributed_conversions": 70.52,
+    "attributed_revenue": 12335.77,
+    "share": 0.0954,
+    "total_spend": 105768.21
+  },
+  {
+    "model": "time_decay",
+    "channel": "Referral",
+    "attributed_conversions": 73.1,
+    "attributed_revenue": 12506.03,
+    "share": 0.0989,
+    "total_spend": 8921.43
+  },
+  {
+    "model": "time_decay",
+    "channel": "Direct",
+    "attributed_conversions": 92.89,
+    "attributed_revenue": 14610.28,
+    "share": 0.1257,
+    "total_spend": 0.0
+  },
+  {
+    "model": "time_decay",
+    "channel": "Affiliate",
+    "attributed_conversions": 79.34,
+    "attributed_revenue": 12043.12,
+    "share": 0.1074,
+    "total_spend": 52523.57
+  },
+  {
+    "model": "time_decay",
+    "channel": "Email",
+    "attributed_conversions": 119.58,
+    "attributed_revenue": 20941.23,
+    "share": 0.1618,
+    "total_spend": 18499.15
+  },
+  {
+    "model": "time_decay",
+    "channel": "Paid Search",
+    "attributed_conversions": 137.98,
+    "attributed_revenue": 28179.18,
+    "share": 0.1867,
+    "total_spend": 240005.38999999998
+  },
+  {
+    "model": "time_decay",
+    "channel": "Organic Search",
+    "attributed_conversions": 89.33,
+    "attributed_revenue": 13741.62,
+    "share": 0.1209,
+    "total_spend": 0.0
+  },
+  {
+    "model": "time_decay",
+    "channel": "Paid Social",
+    "attributed_conversions": 76.24,
+    "attributed_revenue": 12324.27,
+    "share": 0.1032,
+    "total_spend": 162651.62
+  },
+  {
+    "model": "position_based",
+    "channel": "Display",
+    "attributed_conversions": 74.9,
+    "attributed_revenue": 13707.58,
+    "share": 0.1014,
+    "total_spend": 105768.21
+  },
+  {
+    "model": "position_based",
+    "channel": "Referral",
+    "attributed_conversions": 73.64,
+    "attributed_revenue": 12605.58,
+    "share": 0.0997,
+    "total_spend": 8921.43
+  },
+  {
+    "model": "position_based",
+    "channel": "Direct",
+    "attributed_conversions": 93.55,
+    "attributed_revenue": 14806.54,
+    "share": 0.1266,
+    "total_spend": 0.0
+  },
+  {
+    "model": "position_based",
+    "channel": "Affiliate",
+    "attributed_conversions": 72.27,
+    "attributed_revenue": 10677.1,
+    "share": 0.0978,
+    "total_spend": 52523.57
+  },
+  {
+    "model": "position_based",
+    "channel": "Email",
+    "attributed_conversions": 119.04,
+    "attributed_revenue": 20876.26,
+    "share": 0.1611,
+    "total_spend": 18499.15
+  },
+  {
+    "model": "position_based",
+    "channel": "Paid Search",
+    "attributed_conversions": 136.9,
+    "attributed_revenue": 27755.0,
+    "share": 0.1853,
+    "total_spend": 240005.38999999998
+  },
+  {
+    "model": "position_based",
+    "channel": "Organic Search",
+    "attributed_conversions": 85.69,
+    "attributed_revenue": 13237.89,
+    "share": 0.116,
+    "total_spend": 0.0
+  },
+  {
+    "model": "position_based",
+    "channel": "Paid Social",
+    "attributed_conversions": 83.0,
+    "attributed_revenue": 13015.55,
+    "share": 0.1123,
+    "total_spend": 162651.62
+  },
+  {
+    "model": "markov",
+    "channel": "Display",
+    "attributed_conversions": 108.5,
+    "attributed_revenue": 18600.06,
+    "share": 0.1468,
+    "total_spend": 105768.21
+  },
+  {
+    "model": "markov",
+    "channel": "Referral",
+    "attributed_conversions": 87.47,
+    "attributed_revenue": 14994.18,
+    "share": 0.1184,
+    "total_spend": 8921.43
+  },
+  {
+    "model": "markov",
+    "channel": "Direct",
+    "attributed_conversions": 82.08,
+    "attributed_revenue": 14070.33,
+    "share": 0.1111,
+    "total_spend": 0.0
+  },
+  {
+    "model": "markov",
+    "channel": "Affiliate",
+    "attributed_conversions": 63.28,
+    "attributed_revenue": 10848.18,
+    "share": 0.0856,
+    "total_spend": 52523.57
+  },
+  {
+    "model": "markov",
+    "channel": "Email",
+    "attributed_conversions": 74.1,
+    "attributed_revenue": 12702.4,
+    "share": 0.1003,
+    "total_spend": 18499.15
+  },
+  {
+    "model": "markov",
+    "channel": "Paid Search",
+    "attributed_conversions": 128.68,
+    "attributed_revenue": 22058.89,
+    "share": 0.1741,
+    "total_spend": 240005.38999999998
+  },
+  {
+    "model": "markov",
+    "channel": "Organic Search",
+    "attributed_conversions": 94.18,
+    "attributed_revenue": 16144.05,
+    "share": 0.1274,
+    "total_spend": 0.0
+  },
+  {
+    "model": "markov",
+    "channel": "Paid Social",
+    "attributed_conversions": 100.71,
+    "attributed_revenue": 17263.41,
+    "share": 0.1363,
+    "total_spend": 162651.62
+  },
+  {
+    "model": "shapley",
+    "channel": "Display",
+    "attributed_conversions": 75.16,
+    "attributed_revenue": 13429.45,
+    "share": 0.1017,
+    "total_spend": 105768.21
+  },
+  {
+    "model": "shapley",
+    "channel": "Referral",
+    "attributed_conversions": 78.01,
+    "attributed_revenue": 13635.92,
+    "share": 0.1056,
+    "total_spend": 8921.43
+  },
+  {
+    "model": "shapley",
+    "channel": "Direct",
+    "attributed_conversions": 91.02,
+    "attributed_revenue": 14241.78,
+    "share": 0.1232,
+    "total_spend": 0.0
+  },
+  {
+    "model": "shapley",
+    "channel": "Affiliate",
+    "attributed_conversions": 79.25,
+    "attributed_revenue": 11995.6,
+    "share": 0.1072,
+    "total_spend": 52523.57
+  },
+  {
+    "model": "shapley",
+    "channel": "Email",
+    "attributed_conversions": 114.81,
+    "attributed_revenue": 19883.64,
+    "share": 0.1554,
+    "total_spend": 18499.15
+  },
+  {
+    "model": "shapley",
+    "channel": "Paid Search",
+    "attributed_conversions": 129.36,
+    "attributed_revenue": 26594.84,
+    "share": 0.175,
+    "total_spend": 240005.38999999998
+  },
+  {
+    "model": "shapley",
+    "channel": "Organic Search",
+    "attributed_conversions": 88.29,
+    "attributed_revenue": 13569.8,
+    "share": 0.1195,
+    "total_spend": 0.0
+  },
+  {
+    "model": "shapley",
+    "channel": "Paid Social",
+    "attributed_conversions": 83.1,
+    "attributed_revenue": 13330.47,
+    "share": 0.1125,
+    "total_spend": 162651.62
+  }
+]
